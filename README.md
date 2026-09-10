@@ -15,7 +15,7 @@ This project analyzes **cybercrime data in India from 2017 to 2020** to identify
 ## 📊 Key Analysis
 - Year-wise cybercrime trends
 - Highest-crime State/UT each year
-- Top 10 States/UTs by total crimes
+- Top 5 States/UTs by total crimes
 - Major cybercrime motives
 - State-wise crime comparison
 - Year-over-year changes
