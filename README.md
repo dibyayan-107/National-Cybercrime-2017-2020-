@@ -4,6 +4,9 @@
 This project analyzes **cybercrime data in India from 2017 to 2020** to identify crime trends, high-crime states, and major cybercrime motives.
 
 ## 🛠️ Tools & Technology Used
+- **HTML**
+- **CSS**
+- **JavaScript**
 - **Python (Pandas)** – Data cleaning
 - **AWS S3** – Data storage
 - **Snowflake** – Data processing and SQL analysis
