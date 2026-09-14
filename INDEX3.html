@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=ai-legible&utm_source=comment&utm_medium=referral&utm_id=54c92111-ad6a-46be-a0d2-2307c4ca02fa
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+<meta name="hosting-provider" content="Netlify">
+<meta name="netlify-deploy" content="https://netlify.new/?utm_campaign=ai-legible&amp;utm_source=meta&amp;utm_medium=referral&amp;utm_id=54c92111-ad6a-46be-a0d2-2307c4ca02fa">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis | Cyber Crime Analytics Portal - India</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a class='brand' href='/'>
+                <span class="brand-icon">⌁</span>
+                CYBER<span>•</span>ANALYTICS INDIA
+            </a>
+            <button class="mobile-menu-btn" id="menuBtn" type="button">
+                <span></span><span></span><span></span>
+            </button>
+            <div class="nav-links" id="navLinks">
+                <a class='nav-link' href='/'>Home</a>
+                <a class='nav-link' href='/methodology'>Methodology</a>
+                <a class='nav-link active' href='/analysis'>Analysis</a>
+                <a class='nav-link' href='/team'>Our Team</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="analytics-section" id="analytics">
+        <div class="container">
+            <div class="section-heading">
+                <div class="section-heading-icon">02</div>
+                <div>
+                    <span class="section-label">INTERACTIVE ANALYTICS</span>
+                    <h2>Explore India State by State</h2>
+                    <p>Select a region to reveal its complete statistical and visual analysis.</p>
+                </div>
+            </div>
+
+            <!-- STATE SELECTOR -->
+            <div class="analytics-selector-panel">
+                <div class="selector-left">
+                    <label for="stateSelector">Select State / Union Territory</label>
+                    <div class="select-wrapper">
+                        <select id="stateSelector">
+                            <option value="">Select a State / UT</option>
+                        </select>
+                        <span class="select-arrow">⌄</span>
+                    </div>
+                </div>
+
+                <div class="selector-info">
+                    <span class="status-dot"></span>
+                    <span id="selectionStatus">Select a region to begin analysis</span>
+                </div>
+            </div>
+
+            <!-- DYNAMIC TARGET CONTAINER -->
+            <div id="stateAnalysisRoot">
+                <div class="analysis-empty">
+                    <div class="empty-icon">⌁</div>
+                    <h2>Explore India State by State</h2>
+                    <p>Select any State or Union Territory above. The map, statistics, charts and analysis will appear here dynamically.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <strong>CYBER•ANALYTICS INDIA</strong>
+            <p>Cyber Crime Analytics Portal • India • 2017–2020</p>
+            <small>Academic Data Analytics Project</small>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

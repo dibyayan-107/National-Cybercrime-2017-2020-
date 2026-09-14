@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=ai-legible&utm_source=comment&utm_medium=referral&utm_id=54c92111-ad6a-46be-a0d2-2307c4ca02fa
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+<meta name="hosting-provider" content="Netlify">
+<meta name="netlify-deploy" content="https://netlify.new/?utm_campaign=ai-legible&amp;utm_source=meta&amp;utm_medium=referral&amp;utm_id=54c92111-ad6a-46be-a0d2-2307c4ca02fa">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Cyber Crime Analytics Portal - India</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a class='brand' href='/'>
+                <span class="brand-icon">⌁</span>
+                CYBER<span>•</span>ANALYTICS INDIA
+            </a>
+            <button class="mobile-menu-btn" id="menuBtn" type="button">
+                <span></span><span></span><span></span>
+            </button>
+            <div class="nav-links" id="navLinks">
+                <a class='nav-link active' href='/'>Home</a>
+                <a class='nav-link' href='/methodology'>Methodology</a>
+                <a class='nav-link' href='/analysis'>Analysis</a>
+                <a class='nav-link' href='/team'>Our Team</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home-section" id="home">
+        <!-- HERO -->
+        <div class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <span class="hero-tag">NATIONAL CYBER CRIME DATA • 2017–2020</span>
+                    <h1>National Cyber Crime <span>Data Analytics</span></h1>
+                    <p class="hero-description">
+                        An interactive portal for exploring cyber crime incidents across Indian States and Union Territories from 2017 to 2020.
+                    </p>
+                    <a class='primary-btn' href='/analysis'>Explore State Analysis →</a>
+                </div>
+
+                <div class="hero-metrics">
+                    <div class="metric-card">
+                        <div class="metric-icon">▣</div>
+                        <div class="metric-number" id="totalCasesMetric">143,625</div>
+                        <div class="metric-label">Total Reported Incidents</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-icon">◈</div>
+                        <div class="metric-number" id="stateCountMetric">37</div>
+                        <div class="metric-label">States / Union Territories</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-icon">↗</div>
+                        <div class="metric-number">2017–2020</div>
+                        <div class="metric-label">Data Period</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- HOME — OVERVIEW -->
+        <div class="home-overview">
+            <div class="container">
+                <div class="section-heading centered">
+                    <span class="section-label">PROJECT OVERVIEW</span>
+                    <h2>What This Portal Provides</h2>
+                    <p>Explore India's cyber crime dataset through an interactive analytical interface.</p>
+                </div>
+
+                <div class="highlight-grid">
+                    <article class="highlight-card">
+                        <span class="highlight-number">01</span>
+                        <h3>State-wise Analysis</h3>
+                        <p>Select any State or Union Territory and explore its individual cyber crime statistics.</p>
+                    </article>
+                    <article class="highlight-card">
+                        <span class="highlight-number">02</span>
+                        <h3>Year-wise Trends</h3>
+                        <p>Compare reported incidents across 2017, 2018, 2019 and 2020.</p>
+                    </article>
+                    <article class="highlight-card">
+                        <span class="highlight-number">03</span>
+                        <h3>Category Analysis</h3>
+                        <p>Understand the major types of cyber crime recorded in each region.</p>
+                    </article>
+                    <article class="highlight-card">
+                        <span class="highlight-number">04</span>
+                        <h3>Visual Analytics</h3>
+                        <p>Charts, maps and visual indicators make complex data easier to understand.</p>
+                    </article>
+                </div>
+            </div>
+        </div>
+
+        <!-- HOME — NATIONAL SNAPSHOT -->
+        <div class="home-snapshot">
+            <div class="container">
+                <div class="section-heading centered">
+                    <span class="section-label">NATIONAL SNAPSHOT</span>
+                    <h2>Dataset At A Glance</h2>
+                </div>
+
+                <div class="snapshot-grid">
+                    <div class="snapshot-card">
+                        <span>Highest State</span>
+                        <strong id="highestStateValue">—</strong>
+                    </div>
+                    <div class="snapshot-card">
+                        <span>Lowest State</span>
+                        <strong id="lowestStateValue">—</strong>
+                    </div>
+                    <div class="snapshot-card">
+                        <span>Regions Analysed</span>
+                        <strong id="analyticsStateCount">37</strong>
+                    </div>
+                    <div class="snapshot-card">
+                        <span>Total Incidents</span>
+                        <strong id="snapshotTotal">143,625</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- HOME — ABOUT -->
+        <div class="home-about">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-content">
+                        <span class="section-label">ABOUT THE PROJECT</span>
+                        <h2>Understanding India's Cyber Crime Landscape</h2>
+                        <p>
+                            The Cyber Crime Analytics Portal presents cyber crime incidents recorded across Indian States and Union Territories between 2017 and 2020.
+                        </p>
+                        <p>
+                            The portal provides state-wise statistics, yearly trends, category analysis and interactive visual insights from the dataset.
+                        </p>
+                    </div>
+
+                    <div class="about-facts">
+                        <div class="fact-box">
+                            <strong>143,625</strong>
+                            <span>Total Incidents</span>
+                        </div>
+                        <div class="fact-box">
+                            <strong>37</strong>
+                            <span>States / UTs</span>
+                        </div>
+                        <div class="fact-box">
+                            <strong>4</strong>
+                            <span>Years Covered</span>
+                        </div>
+                        <div class="fact-box">
+                            <strong>20+</strong>
+                            <span>Crime Categories</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <strong>CYBER•ANALYTICS INDIA</strong>
+            <p>Cyber Crime Analytics Portal • India • 2017–2020</p>
+            <small>Academic Data Analytics Project</small>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
