@@ -13,7 +13,7 @@ This project analyzes **cybercrime data in India from 2017 to 2020** to identify
 - **Power BI** – Data visualization and dashboard
 
 ## 🔄 Project Workflow
-`CSV Dataset → Pandas → AWS S3 → Snowflake → SQL Analysis → Power BI`
+`CSV Dataset -> Pandas -> AWS S3 -> Snowflake -> SQL Analysis -> Power BI -> Web Portal -> Live Website`
 
 ## 📊 Key Analysis
 - Year-wise cybercrime trends
