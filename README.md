@@ -24,6 +24,9 @@ This project analyzes **cybercrime data in India from 2017 to 2020** to identify
 - Year-over-year changes
 - Crime category distribution
 
+## 📷 Dashboard Preview
+<img width="700" height="400" alt="Screenshot 2026-09-09 155348" src="https://github.com/user-attachments/assets/eb2a905f-50c7-4f8e-931f-7f8f1e6ff8c7" />
+
 ## 📁 Dataset
 The dataset contains State/UT-wise cybercrime information for **2017–2020**. Unnecessary columns, empty cells and empty rows were removed, spelling issues are corrected and the data was cleaned before analysis.
 
