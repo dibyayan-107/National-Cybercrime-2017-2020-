@@ -32,3 +32,7 @@ The dataset contains State/UT-wise cybercrime information for **2017–2020**. U
 
 ## 🎯 Objective
 To understand cybercrime patterns in India and present meaningful insights through **SQL analysis and an interactive Power BI dashboard**.
+
+## 🔥Author
+ Dibyayan
+
